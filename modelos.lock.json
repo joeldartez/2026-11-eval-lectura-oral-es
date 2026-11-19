@@ -1,0 +1,35 @@
+{
+  "format": 1,
+  "models": {
+    "qwen": {
+      "repo": "Qwen/Qwen3-ASR-0.6B-hf",
+      "requested": "main",
+      "revision": "7f1569a48a89f3e3f4dc3a5c9d28bddd903bc76c"
+    },
+    "qwen_aligner": {
+      "repo": "Qwen/Qwen3-ForcedAligner-0.6B-hf",
+      "requested": "main",
+      "revision": "c07281df297b9905d24a508279258cccf987a064"
+    },
+    "parakeet": {
+      "repo": "nvidia/parakeet-tdt-0.6b-v3",
+      "requested": "main",
+      "revision": "541d1f99c6b0c3cd0b11a95167540bb8edefd82b"
+    },
+    "cnam": {
+      "repo": "Cnam-LMSSC/wav2vec2-spanish-phonemizer",
+      "requested": "main",
+      "revision": "6e8a11b261acab0fb6ab6258b7082a2e88b4ed36"
+    },
+    "multilingual": {
+      "repo": "facebook/wav2vec2-lv-60-espeak-cv-ft",
+      "requested": "main",
+      "revision": "ae45363bf3413b374fecd9dc8bc1df0e24c3b7f4"
+    },
+    "diarizer": {
+      "repo": "nvidia/Nemotron-3-Diarization",
+      "requested": "main",
+      "revision": "f667ed73aee57d40cc39428eb768b4fd87a0a29e"
+    }
+  }
+}

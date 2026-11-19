@@ -1,0 +1,37 @@
+{
+  "code": {
+    "files": [
+      "acustica.py",
+      "alineacion.py",
+      "arbitraje.py",
+      "config.py",
+      "evaluacion.py",
+      "evidencia.py",
+      "excel.py",
+      "historico.py",
+      "inferencia.py",
+      "metricas.py",
+      "modelos.py",
+      "pipeline.py",
+      "reconciliacion.py",
+      "texto.py",
+      "utilidades.py"
+    ],
+    "release": "b69ee6d3bf97be1bd295038e2019f880c6b2e198d68da25dcce36397ccd0e5d6",
+    "identity": "a848d50fbbb44bbe639a18a131de8184070301d0838e897ffb9709e21b15291d"
+  },
+  "inference": {
+    "files": [
+      "utilidades.py",
+      "texto.py",
+      "config.py",
+      "modelos.py",
+      "inferencia.py",
+      "acustica.py",
+      "evidencia.py",
+      "reconciliacion.py"
+    ],
+    "release": "8bb0f26970d7ef3cc032382a182b83d7f4b4a31aec5ac28fe99a116c3308139e",
+    "identity": "bbe762fe146d370c585f37d57c1cea1a02af267beb2a833723f86223d7825b12"
+  }
+}

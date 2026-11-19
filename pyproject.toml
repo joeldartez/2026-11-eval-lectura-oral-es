@@ -1,0 +1,30 @@
+[project]
+name = "lectura-oral-es"
+version = "1.0.0"
+description = "Evaluación de precisión, ritmo y velocidad de lectura oral en español con modelos preentrenados."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3==1.43.123",
+    "huggingface-hub==1.33.0",
+    "jsonschema==4.26.0",
+    "librosa==1.0.0",
+    "numpy==2.5.3",
+    "openai==3.26.1",
+    "openpyxl==3.1.5",
+    "phonemizer==3.4.0",
+    "praat-parselmouth==0.4.7",
+    "python-dotenv==1.2.4",
+    "silero-vad==6.2.3",
+    "soundfile==0.14.0",
+    "torch==2.14.1+cu132",
+    "transformers==5.19.0",
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu132" }
+
+[[tool.uv.index]]
+name = "pytorch-cu132"
+url = "https://download.pytorch.org/whl/cu132"
+explicit = true
